@@ -1070,47 +1070,80 @@ html {
 .nc-card:nth-child(8) {
   animation-delay: .40s;
 }
+
 /* ===== Coffee Tabs ===== */
 
-.price-tabs{
-    display:flex;
-    gap:8px;
-    margin:16px 0;
-    padding:4px;
-    background:#eef6ff;
-    border-radius:12px;
+.price-tabs {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+  padding: 4px;
+  background: #eef6ff;
+  border-radius: 12px;
 }
 
-.price-tab{
-    flex:1;
-    height:42px;
-    border:none;
-    border-radius:10px;
-    background:transparent;
-    color:#666;
-    font-size:14px;
-    font-weight:700;
-    cursor:pointer;
-    transition:all .25s ease;
+.price-tab {
+  flex: 1;
+  height: 42px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: #666;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all .25s ease;
 }
 
-.price-tab.active{
-    background:var(--nc-primary);
-    color:#fff;
-    box-shadow:0 4px 12px rgba(27,154,210,.25);
+.price-tab.active {
+  background: var(--nc-primary);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(27, 154, 210, .25);
 }
 
-.price-tab-content{
-    animation:fadePrice .25s ease;
+.price-tab-content {
+  animation: fadePrice .25s ease;
 }
 
-@keyframes fadePrice{
-    from{
-        opacity:0;
-        transform:translateY(8px);
-    }
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
+@keyframes fadePrice {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== کارت محصول بدون جزئیات ===== */
+
+.nc-card-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  padding: 12px 0;
+  border-top: 1px solid rgba(0, 0, 0, .06);
+}
+
+.nc-card-price:first-of-type {
+  margin-top: 16px;
+}
+
+.nc-card-price span:first-child {
+  color: #6B7280;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.nc-card-price span:last-child {
+  color: var(--nc-primary);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.nc-card-desc:empty {
+  display: none;
 }
