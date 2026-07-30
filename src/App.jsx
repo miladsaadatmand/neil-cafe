@@ -53,10 +53,10 @@ export default function App() {
 
       case "location":
         window.open(
-          https://maps.app.goo.gl/zq3b6tumV6bMhHip6
+          "https://maps.app.goo.gl/zq3b6tumV6bMhHip6",
+          "_blank"
         );
         break;
-
       case "designer":
         window.location.href = "tel:09133275608";
         break;
