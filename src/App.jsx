@@ -53,8 +53,7 @@ export default function App() {
 
       case "location":
         window.open(
-          "https://www.google.com/maps/search/Tehran%20Province%2C%20Tehran%2C%20District%208%2C%20Dardasht%20St%2C%20No.%20400%2C%20Iran/@35.729917605477866,51.503154560923576,17z?hl=en",
-          "_blank"
+          https://maps.app.goo.gl/zq3b6tumV6bMhHip6
         );
         break;
 
