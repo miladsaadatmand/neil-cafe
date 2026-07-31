@@ -687,7 +687,7 @@ export const MENU_ITEMS = [
   {
     id: "50",
     name: "نیل مِیل",
-    description: " ترکیبات: عصاره آلبالو،عصارانار ،کرن بری، توت فرنگی،  ",
+    description: " ترکیبات: عصاره آلبالو،عصاره انار ،کرن بری، توت فرنگی،  ",
     image: "/images/nil.webp",
     prices: [{ label: "", amount: "255" }],
     categoryId: "mocktail-smoothie",
@@ -767,7 +767,7 @@ export const MENU_ITEMS = [
   {
     id: "80",
     name: "آیس تی لیمو نعنا ",
-    description: "اب سیب ، لیمو ، سودا ، چای خشک ، عصاره موهیتو",
+    description: "آب سیب ، لیمو ، سودا ، چای خشک ، عصاره موهیتو",
     image: "/images/nil.webp",
     prices: [{ label: "", amount: "190" }],
     categoryId: "traditional-iced-tea",
