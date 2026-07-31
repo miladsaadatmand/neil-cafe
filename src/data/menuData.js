@@ -1,6 +1,6 @@
 export const CATEGORIES = [
   { id: "breakfast", name: "صبحانه", emoji: "🍳" },
-  { id: "snack", name: " میان‌وعده فیت", emoji: "🥪" },
+  { id: "snack", name: " میان‌وعده ", emoji: "🥪" },
   { id: "hot-coffee", name: "قهوه های گرم", emoji: "☕" },
   { id: "cold-coffee", name: "قهوه های سرد", emoji: "🧋" },
   { id: "hot-drinks", name: "نوشیدنی های گرم", emoji: "🍵" },
@@ -105,7 +105,7 @@ export const MENU_ITEMS = [
   },
   {
     id: "12",
-    name: "میان‌وعده رژیمی",
+    name: "میان‌وعده فیت",
     description: "",
     image: "/images/nil.webp",
     prices: [{ label: "", amount: "290" }],
@@ -222,8 +222,8 @@ export const MENU_ITEMS = [
       {
         title: "روبوستا",
         prices: [
-          { label: "سینگل", amount: "155" },
-          { label: "دبل", amount: "175" },
+          { label: "سینگل", amount: "180" },
+          { label: "دبل", amount: "200" },
         ],
       },
     ],
@@ -268,8 +268,8 @@ export const MENU_ITEMS = [
       {
         title: "روبوستا",
         prices: [
-          { label: "سینگل", amount: "185" },
-          { label: "دبل", amount: "165" },
+          { label: "سینگل", amount: "165" },
+          { label: "دبل", amount: "185" },
         ],
       },
     ],
@@ -559,7 +559,7 @@ export const MENU_ITEMS = [
     name: "هات چاکلت",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "", amount: "200" }],
+    prices: [{ label: "", amount: "210" }],
     categoryId: "hot-drinks",
   },
   {
@@ -567,7 +567,7 @@ export const MENU_ITEMS = [
     name: "وایت چاکلت",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "", amount: "210" }],
+    prices: [{ label: "", amount: "200" }],
     categoryId: "hot-drinks",
   },
   {
@@ -668,10 +668,18 @@ export const MENU_ITEMS = [
     prices: [{ label: "", amount: "220" }],
     categoryId: "mocktail-smoothie",
   },
+    {
+    id: "84",
+    name: "لیموناد",
+    description: "",
+    image: "/images/nil.webp",
+    prices: [{ label: "", amount: "195" }],
+    categoryId: "mocktail-smoothie",
+  },
   {
     id: "49",
     name: "کوکونات",
-    description: "ترکیبات: موز، خامه،عصاره نارگیل ،سیروپ نارگیل، پودر نارگیل",
+    description: "ترکیبات: موز، خامه،عصاره نارگیل ، پودر نارگیل",
     image: "/images/nil.webp",
     prices: [{ label: "", amount: "260" }],
     categoryId: "mocktail-smoothie",
@@ -679,7 +687,7 @@ export const MENU_ITEMS = [
   {
     id: "50",
     name: "نیل مِیل",
-    description: "ترکیبات: آلبالو، کرن بری، توت فرنگی، عصاره انار",
+    description: " ترکیبات: عصاره آلبالو،عصارانار ،کرن بری، توت فرنگی،  ",
     image: "/images/nil.webp",
     prices: [{ label: "", amount: "255" }],
     categoryId: "mocktail-smoothie",
@@ -721,17 +729,17 @@ export const MENU_ITEMS = [
     name: "آیس ماچا لته با سیروپ دلخواه",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "", amount: "" }],
+    prices: [{ label: "", amount: "260" }],
     categoryId: "mocktail-smoothie",
   },
-  // {
-  //   id: "56",
-  //   name: "سیروپ اضافه",
-  //   description: "",
-  //   image: "/images/nil.webp",
-  //   prices: [{ label: "", amount: "" }],
-  //   categoryId: "mocktail-smoothie",
-  // }, 
+  {
+    id: "56",
+    name: "آیس ماچا لته",
+    description: "",
+    image: "/images/nil.webp",
+    prices: [{ label: "", amount: "220" }],
+    categoryId: "mocktail-smoothie",
+  }, 
   {
     id: "57",
     name: "شرابه زعفران",
@@ -759,7 +767,7 @@ export const MENU_ITEMS = [
   {
     id: "80",
     name: "آیس تی لیمو نعنا ",
-    description: "لیمو ،چای ترش ،تخم شربتی،عرق شاطره",
+    description: "اب سیب ، لیمو ، سودا ، چای خشک ، عصاره موهیتو",
     image: "/images/nil.webp",
     prices: [{ label: "", amount: "190" }],
     categoryId: "traditional-iced-tea",
@@ -779,7 +787,7 @@ export const MENU_ITEMS = [
   {
     id: "61",
     name: "دبل چاکلت",
-    description: "ترکیبات: : بورانی،شکلات ،بستنی شکلاتی",
+    description: "ترکیبات: : براونی،شکلات ،بستنی شکلاتی",
     image: "/images/nil.webp",
     prices: [{ label: "", amount: "315" }],
     categoryId: "milkshakes",
@@ -787,7 +795,7 @@ export const MENU_ITEMS = [
   {
     id: "62",
     name: "موز شکلات",
-    description: "ترکیبات: میکس بستنی، شکلات، موز، فندق",
+    description: "ترکیبات: میکس بستنی شکلاتی، موز، فندق",
     image: "/images/nil.webp",
     prices: [{ label: "", amount: "320" }],
     categoryId: "milkshakes",

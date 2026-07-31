@@ -1,8 +1,18 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import { formatPrice } from "../utils/formatPrice";
 
 export default function ProductModal({ item, onClose }) {
   if (!item) return null;
+
+  const sortedPriceGroups = useMemo(() => {
+    if (!item.priceGroups) return null;
+
+    return [...item.priceGroups].sort((a, b) => {
+      if (a.title === "روبوستا") return -1;
+      if (b.title === "روبوستا") return 1;
+      return 0;
+    });
+  }, [item]);
 
   const [selectedGroup, setSelectedGroup] = useState(0);
 
@@ -45,18 +55,17 @@ export default function ProductModal({ item, onClose }) {
               قیمت
             </div>
 
-            {item.priceGroups ? (
+            {sortedPriceGroups ? (
 
               <>
                 <div className="price-tabs">
 
-                  {item.priceGroups.map((group, index) => (
+                  {sortedPriceGroups.map((group, index) => (
 
                     <button
                       key={index}
-                      className={`price-tab ${
-                        selectedGroup === index ? "active" : ""
-                      }`}
+                      className={`price-tab ${selectedGroup === index ? "active" : ""
+                        }`}
                       onClick={() => setSelectedGroup(index)}
                     >
                       ☕ {group.title}
@@ -68,7 +77,7 @@ export default function ProductModal({ item, onClose }) {
 
                 <div className="price-tab-content">
 
-                  {item.priceGroups[selectedGroup].prices.map((price, i) => (
+                  {sortedPriceGroups[selectedGroup].prices.map((price, i) => (
 
                     <div
                       key={i}
