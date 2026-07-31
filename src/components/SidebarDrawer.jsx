@@ -67,7 +67,7 @@ export default function SidebarDrawer({
           className="drawer-contact"
           onClick={() =>
             window.open(
-              "https://maps.app.goo.gl/AbCdEf123456",
+              "https://www.google.com/maps/place/35%C2%B043'47.7%22N+51%C2%B030'11.4%22E/@35.7299176,51.5005797,17z/data=!3m1!4b1!4m4!3m3!8m2!3d35.7299176!4d51.5031546?entry=ttu&g_ep=EgoyMDI2MDcyOC4wIKXMDSoASAFQAw%3D%3D",
               "_blank"
             )
           }
