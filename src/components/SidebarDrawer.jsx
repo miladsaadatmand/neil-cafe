@@ -67,14 +67,13 @@ export default function SidebarDrawer({
           className="drawer-contact"
           onClick={() =>
             window.open(
-              "https://maps.app.goo.gl/لینک_گوگل_مپ",
+              "https://maps.app.goo.gl/AbCdEf123456",
               "_blank"
             )
           }
         >
           📍 مشاهده موقعیت کافه
         </div>
-
         {/* Footer */}
         <div
           className="drawer-designer"
@@ -95,7 +94,7 @@ export default function SidebarDrawer({
               window.location.href = "tel:09133275608";
             }}
           >
-            📞تماس  
+            📞تماس
           </button>
         </div>
       </aside>

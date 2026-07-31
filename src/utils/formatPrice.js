@@ -1,4 +1,6 @@
 // فرمت‌دهی قیمت به تومان با ارقام فارسی
 export function formatPrice(amount) {
-  return amount.toLocaleString("fa-IR") + " ت";
+  if (!amount) return "";
+
+  return Number(amount).toLocaleString("fa-IR") + " تومان";
 }

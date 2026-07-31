@@ -38,11 +38,15 @@ export default function App() {
         setCatId(null);
         break;
 
+      case "about":
+        setInfoSection("about");
+        break;
+
       case "share":
         if (navigator.share) {
           navigator.share({
             title: CAFE_CONFIG.name,
-            text: `منوی ${CAFE_CONFIG.name} رو ببین ☕`,
+            text: `منوی ${CAFE_CONFIG.name} را ببین ☕`,
             url: window.location.href,
           });
         } else {
@@ -53,16 +57,18 @@ export default function App() {
 
       case "location":
         window.open(
-          "https://maps.app.goo.gl/zq3b6tumV6bMhHip6",
-          "_blank"
+          "https://www.google.com/maps?q=35.729917605477866,51.503154560923576",
+          "_blank",
+          "noopener,noreferrer"
         );
-        break;
-      case "designer":
+        break; case "designer":
         window.location.href = "tel:09133275608";
         break;
 
       default:
-        setInfoSection(id);
+        if (INFO_CONTENT[id]) {
+          setInfoSection(id);
+        }
         break;
     }
   };

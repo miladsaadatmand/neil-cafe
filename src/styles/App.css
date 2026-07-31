@@ -582,13 +582,17 @@ html {
   width: 82vw;
   max-width: 360px;
   height: 100vh;
+
   background: #fff;
   display: flex;
   flex-direction: column;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
   z-index: 1001;
   box-shadow: -15px 0 40px rgba(0, 0, 0, .18);
   animation: drawerOpen .3s ease;
-  overflow: hidden;
 }
 
 /* Header */
@@ -648,9 +652,10 @@ html {
 /* Menu */
 
 .drawer-menu {
-  flex: 1;
-  padding: 18px 0;
-  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
 }
 
 .drawer-item {
