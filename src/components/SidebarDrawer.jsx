@@ -23,7 +23,7 @@ export default function SidebarDrawer({
         <div className="drawer-profile">
 
           <img
-            src="/images/nil.webp"
+            src="/images/drawer.header.webp"
             alt="Nil Cafe"
             className="drawer-logo"
           />
@@ -75,28 +75,6 @@ export default function SidebarDrawer({
           📍 مشاهده موقعیت کافه
         </div>
         {/* Footer */}
-        <div
-          className="drawer-designer"
-          onClick={() => window.location.href = "tel:09133275608"}
-        >
-          <small>طراحی و توسعه</small>
-
-          <h4>میلاد سعادتمند</h4>
-
-          <span>
-            طراحی وب‌سایت، منوی دیجیتال و رابط کاربری
-          </span>
-
-          <button
-            className="designer-call-btn"
-            onClick={(e) => {
-              e.stopPropagation();
-              window.location.href = "tel:09133275608";
-            }}
-          >
-            📞تماس
-          </button>
-        </div>
       </aside>
     </>
   );

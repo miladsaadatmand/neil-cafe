@@ -729,42 +729,6 @@ html {
 
 /* Footer */
 
-.drawer-designer {
-  margin: 0 22px 22px;
-  padding: 18px;
-  border-radius: 20px;
-  background: linear-gradient(135deg,
-      var(--nc-primary),
-      #56bbff);
-  color: #fff;
-  text-align: center;
-  cursor: pointer;
-  transition: .25s;
-}
-
-.drawer-designer:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 15px 30px rgba(27, 154, 210, .25);
-}
-
-.drawer-designer small {
-  display: block;
-  opacity: .9;
-  margin-bottom: 8px;
-}
-
-.drawer-designer h4 {
-  margin: 0;
-  font-size: 18px;
-}
-
-.drawer-designer span {
-  display: block;
-  margin-top: 8px;
-  opacity: .9;
-  font-size: 13px;
-}
-
 .designer-call-btn {
   margin-top: 16px;
   width: 100%;
