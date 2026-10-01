@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>منوی نیل کافه</title>
+    <!-- فونت وزیرمتن: فونت فارسی حرفه‌ای و رایگان، مخصوص وب و رابط کاربری -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script type="module" crossorigin src="/neil-cafe/assets/index-DqHJuXaR.js"></script>
+    <link rel="stylesheet" crossorigin href="/neil-cafe/assets/index-DaKZd8MU.css">
+  </head>
+  <body style="margin: 0">
+    <div id="root"></div>
+  </body>
+</html>
