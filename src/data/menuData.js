@@ -71,7 +71,7 @@ export const MENU_ITEMS = [
   {
     id: "7",
     name: "صبحانه فیت",
-    description: " ،ترکیبات:فیله سالاد ،تخم مرغ ذرت",
+    description: "ترکیبات:فیله، سالاد ،تخم مرغ ذرت",
     image: "/images/nil.webp",
     prices: [{ label: "", amount: "590" }],
     categoryId: "breakfast",
@@ -122,7 +122,7 @@ export const MENU_ITEMS = [
   {
     id: "12",
     name: "میان‌وعده فیت",
-    description: " ،ترکیبات:فیله سالاد ،تخم مرغ ذرت",
+    description: " ترکیبات:فیله، سالاد ،تخم مرغ ذرت",
     image: "/images/nil.webp",
     prices: [{ label: "", amount: "590" }],
     categoryId: "snack",
