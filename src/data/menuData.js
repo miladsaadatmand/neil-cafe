@@ -17,7 +17,7 @@ export const MENU_ITEMS = [
     name: "املت ایرانی",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "قیمت:", amount: "230" }],
+    prices: [{ label: "قیمت:", amount: "260" }],
     categoryId: "breakfast",
   },
   {
@@ -25,7 +25,7 @@ export const MENU_ITEMS = [
     name: "املت مخصوص نیل",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "قینت", amount: "320" }],
+    prices: [{ label: "قینت", amount: "370" }],
     categoryId: "breakfast",
   },
   {
@@ -33,7 +33,7 @@ export const MENU_ITEMS = [
     name: "نیمرو",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "", amount: "200" }],
+    prices: [{ label: "", amount: "230" }],
     categoryId: "breakfast",
   },
   {
@@ -41,7 +41,7 @@ export const MENU_ITEMS = [
     name: " نیمرو اسفناج",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "", amount: "250" }],
+    prices: [{ label: "", amount: "280" }],
     categoryId: "breakfast",
   },
   {
@@ -49,7 +49,7 @@ export const MENU_ITEMS = [
     name: "سوسیس تخم مرغ",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "", amount: "250" }],
+    prices: [{ label: "", amount: "290" }],
     categoryId: "breakfast",
   },
   {
@@ -81,7 +81,7 @@ export const MENU_ITEMS = [
     name: "عدسی ",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "", amount: "200" }],
+    prices: [{ label: "", amount: "240" }],
     categoryId: "breakfast",
   },
 
@@ -185,15 +185,15 @@ export const MENU_ITEMS = [
       {
         title: "عربیکا",
         prices: [
-          { label: "سینگل", amount: "220" },
-          { label: "دبل", amount: "240" },
+          { label: "سینگل", amount: "250" },
+          { label: "دبل", amount: "270" },
         ],
       },
       {
         title: "روبوستا",
         prices: [
-          { label: "سینگل", amount: "200" },
-          { label: "دبل", amount: "220" },
+          { label: "سینگل", amount: "230" },
+          { label: "دبل", amount: "250" },
         ],
       },
     ],
@@ -208,15 +208,15 @@ export const MENU_ITEMS = [
       {
         title: "عربیکا",
         prices: [
-          { label: "سینگل", amount: "240" },
-          { label: "دبل", amount: "260" },
+          { label: "سینگل", amount: "290" },
+          { label: "دبل", amount: "310" },
         ],
       },
       {
         title: "روبوستا",
         prices: [
-          { label: "سینگل", amount: "220" },
-          { label: "دبل", amount: "240" },
+          { label: "سینگل", amount: "260" },
+          { label: "دبل", amount: "280" },
         ],
       },
     ],
@@ -231,15 +231,15 @@ export const MENU_ITEMS = [
       {
         title: "عربیکا",
         prices: [
-          { label: "سینگل", amount: "240" },
-          { label: "دبل", amount: "260" },
+          { label: "سینگل", amount: "290" },
+          { label: "دبل", amount: "310" },
         ],
       },
       {
         title: "روبوستا",
         prices: [
-          { label: "سینگل", amount: "220" },
-          { label: "دبل", amount: "240" },
+          { label: "سینگل", amount: "260" },
+          { label: "دبل", amount: "280" },
         ],
       },
     ],
@@ -254,15 +254,15 @@ export const MENU_ITEMS = [
       {
         title: "عربیکا",
         prices: [
-          { label: "سینگل", amount: "200" },
-          { label: "دبل", amount: "220" },
+          { label: "سینگل", amount: "230" },
+          { label: "دبل", amount: "250" },
         ],
       },
       {
         title: "روبوستا",
         prices: [
-          { label: "سینگل", amount: "180" },
-          { label: "دبل", amount: "200" },
+          { label: "سینگل", amount: "200" },
+          { label: "دبل", amount: "220" },
         ],
       },
     ],
@@ -277,8 +277,8 @@ export const MENU_ITEMS = [
       {
         title: "عربیکا",
         prices: [
-          { label: "سینگل", amount: "230" },
-          { label: "دبل", amount: "250" },
+          { label: "سینگل", amount: "250" },
+          { label: "دبل", amount: "270" },
         ],
       },
       {
@@ -300,15 +300,15 @@ export const MENU_ITEMS = [
       {
         title: "عربیکا",
         prices: [
-          { label: "سینگل", amount: "220" },
-          { label: "دبل", amount: "240" },
+          { label: "سینگل", amount: "260" },
+          { label: "دبل", amount: "280" },
         ],
       },
       {
         title: "روبوستا",
         prices: [
-          { label: "سینگل", amount: "200" },
-          { label: "دبل", amount: "220" },
+          { label: "سینگل", amount: "240" },
+          { label: "دبل", amount: "260" },
         ],
       },
     ],
@@ -323,15 +323,15 @@ export const MENU_ITEMS = [
       {
         title: "عربیکا",
         prices: [
-          { label: "سینگل", amount: "220" },
-          { label: "دبل", amount: "240" },
+          { label: "سینگل", amount: "250" },
+          { label: "دبل", amount: "270" },
         ],
       },
       {
         title: "روبوستا",
         prices: [
-          { label: "سینگل", amount: "200" },
-          { label: "دبل", amount: "220" },
+          { label: "سینگل", amount: "230" },
+          { label: "دبل", amount: "250" },
         ],
       },
     ],
@@ -346,15 +346,15 @@ export const MENU_ITEMS = [
       {
         title: "عربیکا",
         prices: [
-          { label: "سینگل", amount: "285" },
-          { label: "دبل", amount: "305" },
+          { label: "سینگل", amount: "320" },
+          { label: "دبل", amount: "340" },
         ],
       },
       {
         title: "روبوستا",
         prices: [
-          { label: "سینگل", amount: "265" },
-          { label: "دبل", amount: "285" },
+          { label: "سینگل", amount: "300" },
+          { label: "دبل", amount: "320" },
         ],
       },
     ],
@@ -365,7 +365,7 @@ export const MENU_ITEMS = [
     name: "نسکافه",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "", amount: "250" }],
+    prices: [{ label: "", amount: "280" }],
     categoryId: "hot-coffee",
   },
   {
@@ -373,7 +373,7 @@ export const MENU_ITEMS = [
     name: "قهوه ترک",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "", amount: "170" }],
+    prices: [{ label: "", amount: "180" }],
     categoryId: "hot-coffee",
   },
   {
@@ -381,7 +381,7 @@ export const MENU_ITEMS = [
     name: "قهوه یونانی",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "", amount: "200" }],
+    prices: [{ label: "", amount: "210" }],
     categoryId: "hot-coffee",
   },
   {
@@ -450,15 +450,15 @@ export const MENU_ITEMS = [
       {
         title: "عربیکا",
         prices: [
-          { label: "سینگل", amount: "230" },
-          { label: "دبل", amount: "250" },
+          { label: "سینگل", amount: "260" },
+          { label: "دبل", amount: "280" },
         ],
       },
       {
         title: "روبوستا",
         prices: [
-          { label: "سینگل", amount: "210" },
-          { label: "دبل", amount: "230" },
+          { label: "سینگل", amount: "240" },
+          { label: "دبل", amount: "260" },
         ],
       },
     ],
@@ -473,15 +473,15 @@ export const MENU_ITEMS = [
       {
         title: "عربیکا",
         prices: [
-          { label: "سینگل", amount: "250" },
-          { label: "دبل", amount: "270" },
+          { label: "سینگل", amount: "300" },
+          { label: "دبل", amount: "320" },
         ],
       },
       {
         title: "روبوستا",
         prices: [
-          { label: "سینگل", amount: "230" },
-          { label: "دبل", amount: "250" },
+          { label: "سینگل", amount: "270" },
+          { label: "دبل", amount: "290" },
         ],
       },
     ],
@@ -496,15 +496,15 @@ export const MENU_ITEMS = [
       {
         title: "عربیکا",
         prices: [
-          { label: "سینگل", amount: "250" },
-          { label: "دبل", amount: "270" },
+          { label: "سینگل", amount: "300" },
+          { label: "دبل", amount: "320" },
         ],
       },
       {
         title: "روبوستا",
         prices: [
-          { label: "سینگل", amount: "230" },
-          { label: "دبل", amount: "250" },
+          { label: "سینگل", amount: "270" },
+          { label: "دبل", amount: "290" },
         ],
       },
     ],
@@ -516,7 +516,7 @@ export const MENU_ITEMS = [
     name: "فراپه",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "", amount: "320" }],
+    prices: [{ label: "", amount: "350" }],
     categoryId: "cold-coffee",
   },
   {
@@ -524,7 +524,7 @@ export const MENU_ITEMS = [
     name: "آفوگاتو",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "", amount: "280" }],
+    prices: [{ label: "", amount: "300" }],
     categoryId: "cold-coffee",
   },
   {
@@ -532,7 +532,7 @@ export const MENU_ITEMS = [
     name: "موکا چیلو",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "", amount: "350" }],
+    prices: [{ label: "", amount: "380" }],
     categoryId: "cold-coffee",
   },
   {
