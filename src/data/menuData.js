@@ -139,8 +139,8 @@ export const MENU_ITEMS = [
       {
         title: "عربیکا",
         prices: [
-          { label: "سینگل", amount: "145" },
-          { label: "دبل", amount: "150" },
+          { label: "سینگل", amount: "165" },
+          { label: "دبل", amount: "170" },
         ],
       },
       {
@@ -162,8 +162,8 @@ export const MENU_ITEMS = [
       {
         title: "عربیکا",
         prices: [
-          { label: "سینگل", amount: "160" },
-          { label: "دبل", amount: "170" },
+          { label: "سینگل", amount: "180" },
+          { label: "دبل", amount: "190" },
         ],
       },
       {
@@ -389,7 +389,7 @@ export const MENU_ITEMS = [
     name: "سیروپ اضافه",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "", amount: "40" }],
+    prices: [{ label: "", amount: "60" }],
     categoryId: "hot-coffee",
   },
 
