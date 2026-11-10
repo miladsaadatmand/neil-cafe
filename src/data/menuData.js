@@ -563,7 +563,7 @@ export const MENU_ITEMS = [
     name: "سیروپ اضافه",
     description: "",
     image: "/images/nil.webp",
-    prices: [{ label: "", amount: "40" }],
+    prices: [{ label: "", amount: "60" }],
     categoryId: "cold-coffee",
   },
 
